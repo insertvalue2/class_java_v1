@@ -28,3 +28,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+# exercise.my 패키지 및 하위 패키지의 모든 자바 파일 무시
+**/exercise/my/**/*.java
