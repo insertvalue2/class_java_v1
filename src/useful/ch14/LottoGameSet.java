@@ -15,6 +15,8 @@ public class LottoGameSet {
             lotto.add(number);
             count++;
         }
+        System.out.println(lotto);
+
         System.out.println("이번주 로또 번호 : " + lotto);
         System.out.println("while 문 반복 횟수 : " + count);
 
