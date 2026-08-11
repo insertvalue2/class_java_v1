@@ -4,11 +4,11 @@ package useful.ch16;
 // 내가 직접 설계하고 싶다면 함수형 인터페이스를 만들어야 한다.
 
 // @FunctionalInterface 은 인터페이스 안에 오직 단 하나의 추상 메서드만 가질 수있록 강제한다.
-@FunctionalInterface
-interface MathOperation {
-    int operate(int x, int y);
-    //void run();
-}
+//@FunctionalInterface
+//interface  {
+//    int operate(int x, int y);
+//    //void run();
+//}
 
 
 public class Demo3 {
