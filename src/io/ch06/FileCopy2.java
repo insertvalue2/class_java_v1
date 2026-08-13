@@ -13,8 +13,8 @@ public class FileCopy2 {
         // 2. 스트림 (File I/O) - 바이트 기반
         // 3. 소요시간 측정
 
-        String sourceFilePath = "assets/img1.zip";
-        String destinationFilePath = "assets/img1_copy.zip";
+        String sourceFilePath = "assets/employees.zip";
+        String destinationFilePath = "assets/employees_copy.zip";
         long startTime = System.nanoTime();
 
         try (FileOutputStream fos = new FileOutputStream(destinationFilePath);
