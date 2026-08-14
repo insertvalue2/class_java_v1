@@ -19,15 +19,12 @@ public class ClientFile2 {
             // 읽기 스트림 (서버 ---> 클라이언트)
             BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
-
             // 서버측으로 보낼 메세지
             writer.println("안녕 서버야~~~~~");
 
             // 서버 응답 수신
             String responseMessage = reader.readLine(); // 블로킹 (서버에서 데이터 보낼 때 까지)
             System.out.println("서버 응답 : " + responseMessage);
-
-
 
         } catch (UnknownHostException e) {
             throw new RuntimeException(e);
